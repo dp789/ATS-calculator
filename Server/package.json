@@ -1,0 +1,25 @@
+{
+    "name": "resume-ats-analyzer-server",
+    "version": "1.0.0",
+    "description": "Backend server for Resume ATS Analyzer",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "pdf-parse": "^1.1.1",
+      "openai": "^4.0.0",
+      "multer": "^1.4.5-lts.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "@azure-rest/ai-inference": "latest",
+      "@azure/core-auth": "latest",
+      "@azure/core-sse": "latest"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
